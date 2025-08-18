@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #007bff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Card Styling */
+.emotion-card {
+    background-color: #080808;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #00ff77;
+    transition: background-color 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-outline-success {
+    transition: all 0.3s;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: rgb(19, 227, 71);
+}
+
+/* Video Styling */
+video {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Detected Emotion Styling */
+#emotion-text {
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Recommended Song Styling */
+#song-text {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#song-text a {
+    margin-top: 10px;
+    font-size: 1rem;
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+/* Emotion Badge */
+.badge {
+    font-size: 1rem;
+    padding: 0.5em 1em;
+}
+
+/* Lead text (Bootstrap) */
+#result .lead {
+    font-size: 1.5rem;
+}
+
+/* Alerts if any */
+.alert {
+    margin-bottom: 1rem;
+}
